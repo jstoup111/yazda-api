@@ -39,7 +39,7 @@ module Yazda::Api
     #
     # @return updated activities json (see http://Yazda.github.io/api/activities/)
     def update_banner_image(id, args = {}, options = {}, &block)
-      api_call("account/update_banner_image", args, 'post', options, &block)git
+      api_call("account/update_banner_image", args, 'post', options, &block)
     end
   end
 end
