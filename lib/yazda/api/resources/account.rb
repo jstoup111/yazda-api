@@ -15,7 +15,7 @@ module Yazda::Api
     # @return activity json (see http://Yazda.github.io/api/activities/)
     def me(args = {}, options = {}, &block)
       # Fetches the connections for given object.
-      api_call("account", args, 'get', options, &block)
+      api_call("account/me", args, 'get', options, &block)
     end
 
     # Create an adventure

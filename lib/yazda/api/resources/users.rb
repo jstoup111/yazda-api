@@ -14,7 +14,7 @@ module Yazda::Api
     # @param block post processing code block
     #
     # @return activities json (see http://Yazda.github.io/api/activities/)
-    def user(args = {}, options = {}, &block)
+    def user(id, args = {}, options = {}, &block)
       # Fetches the connections for given object.
       api_call("users/#{id}", args, 'get', options, &block)
     end
