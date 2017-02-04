@@ -44,7 +44,7 @@ module Yazda::Api
     # @return activities json (see http://Yazda.github.io/api/activities/)
     def search(args = {}, options = {}, &block)
       # Fetches the connections for given object.
-      api_call('users/', args, 'get', options, &block)
+      api_call('users/search', args, 'get', options, &block)
     end
 
     # Create an adventure

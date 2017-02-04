@@ -5,7 +5,7 @@ module Yazda
       VALID_OPTIONS_KEYS    = [:access_token].freeze
       VALID_CONFIG_KEYS     = VALID_CONNECTION_KEYS + VALID_OPTIONS_KEYS
 
-      DEFAULT_ENDPOINT      = 'https://api.yazdaapp.com/'
+      DEFAULT_ENDPOINT      = 'https://api.yazdaapp.com/v1/'
       DEFAULT_AUTH_ENDPOINT = 'https://api.yazdaapp.com/oauth/token'
       DEFAULT_METHOD        = :get
       DEFAULT_USER_AGENT    = "Yazda API V1 Ruby Gem #{Yazda::Api::VERSION}".freeze
